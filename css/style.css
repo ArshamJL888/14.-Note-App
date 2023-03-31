@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.getting {
+    margin: 50px auto;
+    margin-bottom: 0px;
+    padding: 10px;
+    text-align: center;
+    width: 800px;
+    height: 125px;
+}
+.title {
+    font-size: 28px;
+    color: black;
+    font-weight: 450;
+    text-align: center;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+.input {
+    width: 600px;
+    border: 1px solid #424242;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: black;
+}
+.colors {
+    margin-left: 100px;
+}
+.colorPick {
+    margin: 3px;
+    border: 0.8px solid #616161;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    float: left;
+    cursor: pointer;
+    background-color: aquamarine;
+}
+.mainAction {
+    margin: 0 auto;
+    width: 800px;
+    padding: 10px;
+    height: 50px;
+    direction: rtl;
+    padding-right: 200px;
+}
+.add, .remove {
+    border: 0.8px solid gray;
+    padding: 5px;
+    padding-top: 10px;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 3px;
+    width: 28px;
+    height: 22px;
+    float: right;
+    margin: 3px;
+    margin-top: 0;
+}
+.add {
+    color: #0288D1;
+    border-color: #0288D1;
+}
+.remove {
+    color: #FF3D00;
+    border-color: #FF3D00;
+}
+.list {
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    width: 1500px;
+    
+}
+.note {
+    width: 415px;
+    height: 22.5px;
+    margin: 20px;
+    float: left;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    background-color:aquamarine;
+    border: 0.8px outset gray;
+    cursor: pointer;
+}
+.text {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 19px; 
+    font-weight: 450; 
+}
